@@ -1,0 +1,446 @@
+/* RESPONSISVE PC - GIAO DIỆN LAPTOP 1200PX <========> 1375PX  */
+@media only screen and (min-width: 1200px) and (max-width: 1375px) {
+/* <<============ CLASS BASE ============>> */
+   .container {
+       max-width: 1200px;
+   }
+   .Abdelzaher-slider {
+       height: 632px !important;
+   }
+   .mfp-iframe-holder .mfp-content {
+       max-width: 900px !important;
+   }
+/* <<============ CLASS BASE ============>> */
+    .intro .intro-left__title {
+        font-size: 30px;
+    }
+   .banner {
+       height: 450px;
+   }
+}
+/* RESPONSISVE IPAD - GIAO DIỆN MÁY TÍNH BẢNG <<==== 1040PX  */
+@media only screen and (max-width: 1040px) {
+/* <<============ CLASS BASE ============>> */
+    .btn {
+        padding: 12px 2px;
+    }
+    .Abdelzaher-slider {
+        height: 550px !important;
+    }
+/* <<============ CLASS BASE ============>> */
+    .header .header-link__logo {
+        width: 210px;
+    }
+    .header .header-list__items-link {
+        font-size: 13px;
+    }
+    .header .header-group {
+        padding-left: 15px;
+    }
+    .header .sub-menu__items-link {
+        font-size: 13px;
+    }
+    .header .header-group__icon:first-child {
+        margin-right: 15px;
+    }
+    .silder .silder-content {
+        max-width: 580px;
+    }
+    .silder .silder-content__title {
+        font-size: 36px;
+    }
+    .silder .silder-content__desc {
+        font-size: 14px;
+    }
+}
+/* RESPONSISVE IPAD - GIAO DIỆN MÁY TÍNH BẢNG <<==== 990PX  */
+@media only screen and (max-width: 990px) {
+/* <<============ CLASS BASE ============>> */
+    .experience .experience__large {
+        font-size: 60px;
+    }
+    .experience .experience__mini {
+        font-size: 14px;
+    }
+    .text-heading {
+        font-size: 22px;
+    }
+    .text-description {
+        font-size: 14px;
+    }
+    .heading-hover {
+        font-size: 22px;
+        margin-bottom: 24px;
+    }
+    .Abdelzaher-slider {
+        height: 350px !important;
+    }
+    .btn span {
+        font-size: 14px;
+    }
+    #scroll {
+        display: none !important;
+    }
+/* <<============ CLASS BASE ============>> */
+    .header {
+        padding: 15px 0;
+    }
+    .header .bars-hamburger {
+        display: block;
+    }
+    .header .nav-mobile {
+        display: block;
+    }
+    .header .header-link__logo {
+        width: 180px;
+    }
+    .header .header__container {
+        justify-content: space-between;
+    }
+    .header .header-list {
+        display: none;
+    }
+    .header .header-group {
+        padding: 0;
+    }
+    .silder .silder-content {
+        max-width: 450px;
+    }
+    .silder .silder-content__title {
+        font-size: 24px;
+    }
+    .silder .silder-content__desc {
+        font-size: 14px;
+    }
+    .intro .intro-left {
+        width: 41.66666667%;
+    }
+    .intro .intro-left__title {
+        font-size: 22px;
+    }
+    .intro .intro-right {
+        width: 58.33333333%;
+    }
+    .intro .intro-content__right-desc {
+        font-size: 15px;
+    }
+    .service .service__title {
+        font-size: 22px;
+    }
+    .service .service-list__items-effect {
+        position: initial;
+    }
+    .service .service-list__items-effect::before,
+    .service-list__items-effect::after {
+        position: initial;
+    }
+    .service .service-list__items-link {
+        font-size: 15px;
+    }
+    .about .about-wallpaper {
+        width: 41.66666667%;
+    }
+    .about .about-section {
+        width: 58.33333333%;
+    }
+    .company {
+        padding: 50px 0;
+    }
+    .company .company__container {
+        flex-direction: column;
+    }
+    .company .company-left,
+    .company .company-right {
+        width: 100%;
+        border: none;
+    }
+    .company .company-right {
+        padding: 70px 50px 50px;
+    }
+    .company .company-right::before,
+    .company .company-right::after {
+        display: none;
+    }
+    .company .company-right__content:nth-child(2) {
+        font-size: 24px;
+    }
+    .support .support-items__desc {
+        font-size: 14px;
+    }
+    .progress {
+        padding: 50px 0;
+    }
+    .progress .progress__container {
+        flex-direction: column-reverse;
+    }
+    .progress .progress-left,
+    .progress .progress-right {
+        width: 100%;
+        padding: 0;
+    }
+    .articles .articles-content {
+        position: initial;
+        padding: 0;
+        background: transparent;
+        color: var(--color-black);
+        width: 100%;
+    }
+    .articles .articles-content__link {
+        font-size: 16px;
+        margin-top: 20px;      
+    }
+    .banner {
+        height: 380px;
+    }
+    .banner .banner__content-title {
+        font-size: 18px;
+    }
+    .project .project-list__items {
+        width: calc(50% - 15px);
+    }
+    .project .project-list__items:hover
+    .project-list__items-image {
+        transform: initial;
+        opacity: initial;
+    }
+    .registration .registration__container {
+        flex-direction: column;
+    }
+    .registration .registration-email {
+        width: 100%;
+    }
+    .registration .registration-hotline {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .registration .registration-hotline__icon {
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+    }
+    .footer .footer__container {
+        flex-wrap: wrap;
+        margin-bottom: -30px;
+    }
+    .footer .footer-items {
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+    }
+    .footer .footer-items__title {
+        font-size: 15px;
+    }
+    .footer .footer-items__desc,
+    .footer .footer-list__items {
+        font-size: 14px;
+    }
+}
+/* RESPONSISVE MOBILE - GIAO DIỆN ĐIỆN THOẠI <<==== 740PX  */
+@media only screen and (max-width: 740px) {
+/* <<============ CLASS BASE ============>> */
+    .btn {
+        padding: 10px 20px;
+    }
+    .btn span {
+        padding: 0;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transform: initial;
+        transform-origin: initial;
+        position: initial;
+    }
+    .btn em {
+        position: initial;
+        transform-origin: initial;
+        -webkit-transform: initial;
+        width: 0;
+        height: 0;
+        right: 0;
+        top: 0;
+        z-index: initial;
+        transition: initial;
+        background: transparent;
+    }
+    .btn:before, .btn:after {
+        position: inherit;
+    }
+    .experience .experience__large {
+        font-size: 40px;
+    }
+    .text-heading {
+        margin-bottom: 15px;
+    }
+    .controlsButtons .prev,
+    .controlsButtons .next {
+        display: none;
+    }
+    .Abdelzaher-slider .item .example {
+        position: initial !important;
+        color: white;
+        z-index: 9;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+    /* <<============ CLASS BASE ============>> */
+    .intro, .service, .about, .support,
+    .progress, .articles, .section, .project {
+        padding: 50px 0;
+    }
+    .header .header-link__logo {
+        width: 180px;
+        max-width: 100%;
+    }
+    .intro-wrapper {
+        flex-direction: column;
+    }
+    .intro .intro-left,
+    .intro .intro-right {
+        width: 100%;
+    }
+    .intro .intro-left {
+        text-align: left;
+    }
+    .intro .intro-left {
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .intro .intro-left__title-wrap {
+        display: initial;
+    }
+    .intro .intro-right {
+        border-left: initial;
+    }
+    .intro .intro-content {
+        padding: 0;
+    }
+    .service .service-list {
+        flex-wrap: wrap;
+        margin-bottom: -30px;
+    }
+    .service .service-list__items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about .about__container {
+        flex-wrap: wrap;
+    }
+    .about .about-wallpaper {
+        width: 100%;
+    }
+    .about .about-section {
+        padding: 0;
+        width: 100%;
+    }
+    .about .about-wallpaper__main::after {
+        display: none;
+    }
+    .about .about-wallpaper__main-image {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .company {
+        background-attachment: initial;
+    }
+    .company .company-right {
+        padding: 50px 15px 0;
+    }
+    .company .company-left__items-number {
+        font-size: 36px;
+    }
+    .company .company-left__items-text {
+        font-size: 12px;
+    }
+    .support .support__container {
+        flex-wrap: wrap;
+        margin-bottom: -40px;
+    }
+    .support .support-items {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .articles {
+        background-attachment: scroll;
+    }
+    .section .section__container {
+        flex-wrap: wrap;
+    }
+    .section .section-video,
+    .section .section-activities {
+        width: 100%;
+        padding: 0;
+    }
+    .section .section-video {
+        margin-bottom: 28px;
+    }
+    .project .project-list__items {
+        width: calc(50% - 7.5px)
+    }
+    .project .project-list__items-image {
+        filter: initial;
+    }
+    .project .project-content {
+        position: initial;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .project .project-content__link {
+        color: var(--color-black);
+        -webkit-line-clamp: 1;
+    }
+    .project .project-content__contact {
+        color: var(--color-black);
+        font-weight: 500;
+    }
+    .project .btn {
+        display: none;
+    }
+    .registration .registration-email {
+        display: block;
+        padding: 0;
+    }
+    .registration .registration-email__news,
+    .registration .registration-email__form {
+        padding: 0;
+        margin: 12px 0;
+        border: initial;
+    }
+    .registration .registration-email__form-input {
+        font-size: 12px;
+    }
+    .registration .registration-email__news-text,
+    .registration .registration-hotline__support {
+        font-size: 14px;
+    }
+    .registration .registration-email__form-btn {
+        padding: 12px 24px;
+    }
+    .registration .registration-email__form-btn:hover {
+        background-color: var(--color-primary);
+        transition: initial;
+    }
+    .registration .registration-hotline {
+        margin: 0;
+    }
+    .footer .footer-items {
+        width: 100%;
+    }
+    .copyright .copyright__link {
+        display: block;
+        margin-top: 5px;
+    }
+    .copyright .copyright__az {
+        display: none;
+    }
+}
+/* RESPONSISVE MOBILE - GIAO DIỆN ĐIỆN THOẠI <<==== 420PX  */
+@media only screen and (max-width: 420px) {
+    .header .header-group {
+        display: none;
+    }
+}
+
+    
+
+

@@ -1,0 +1,140 @@
+*{
+    box-sizing:border-box;
+}
+.Abdelzaher-slider{
+    width: 100%;
+    height:500px;
+    position: relative;
+    overflow:hidden;
+}
+.Abdelzaher-slider .item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Abdelzaher-slider .item .example
+{
+    color:#fff;
+    position: absolute;
+    width:100%;
+    height:100%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.Abdelzaher-slider .item::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.4);
+}
+.Abdelzaher-slider .item:nth-child(1){
+    background-image: url(images/silder1.jpg);
+}
+.Abdelzaher-slider .item:nth-child(2){
+    background-image: url(images/silder2.jpg);
+}
+.Abdelzaher-slider .item:nth-child(3){
+    background-image: url(images/silder3.jpg);
+}
+.Abdelzaher-slider .item:nth-child(4){
+    background-image: url(images/silder4.jpg);
+}
+.Abdelzaher-slider .item.top{
+    transition: .5s ease transform;
+    z-index:3
+}
+.Abdelzaher-slider .left{
+    transform: translateX(-100%);
+}
+.Abdelzaher-slider .right{
+    transform: translateX(100%);
+}
+.Abdelzaher-slider .item.active{
+    transform: translateX(0%);
+}
+.Abdelzaher-slider .controls{
+    position: absolute;
+    bottom: 20px;
+    display:flex;
+    justify-content: center;
+    width:100%
+}
+.Abdelzaher-slider .controls span{
+    width:10px;
+    height:10px;
+    border-radius:10px;
+    background-color:#bbb;
+    margin: 0px 7px;
+    cursor: pointer;
+    transition: width .5s ease;
+}
+.Abdelzaher-slider .controls span.active{
+    width:30px;
+    background-color:#fff;
+    border-radius: 5px;
+}
+.controlsButtons{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+
+}
+.controlsButtons button{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width:70px;
+    height:70px;
+    border-radius:80px;
+    border:none;
+    outline:none;
+    font-size:25pt;
+    font-weight:bold;
+    color:#bbb;
+    background-color:transparent;
+    text-align:center;
+    cursor:pointer;
+}
+.controlsButtons button:hover{
+    outline: none;
+    color: #fff;
+    background-color: rgba(0,0,0,.2);
+}
+.controlsButtons .next{
+    right:42px
+}
+.controlsButtons .next i {
+    position: relative;
+    left:2px;
+    color: white;
+}
+.controlsButtons .prev{
+    left:42px
+}
+.controlsButtons .prev i {
+    position: relative;
+    left:-4px;
+    color: white;
+}
+/* .sound{
+    position: absolute;
+    display:none
+} */
